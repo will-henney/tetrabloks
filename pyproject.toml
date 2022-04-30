@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tetrabloks"
+version = "0.1.0"
+description = "Intelligent powers-of-two rebinning of maps, with weighting, masking, and sensible treatment of NaNs"
+authors = ["William Henney <will@henney.org>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.22.3"
+
+[tool.poetry.dev-dependencies]
+astropy = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
