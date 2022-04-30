@@ -74,8 +74,8 @@ python-versions = ">=3.6"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9"
-content-hash = "3354ad54280753e912c7e150bb2e544880b10ba3b26383d12f90d3c446e9cadd"
+python-versions = ">=3.9"
+content-hash = "54478c52cd93a5db161660b8e20dbe4eb0583e2110d96ed85df54006722182c3"
 
 [metadata.files]
 astropy = [

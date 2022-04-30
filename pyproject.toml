@@ -6,11 +6,11 @@ authors = ["William Henney <will@henney.org>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
-numpy = "^1.22.3"
+python = ">=3.9"
+numpy = ">=1.22.3"
 
 [tool.poetry.dev-dependencies]
-astropy = "^5.0.4"
+astropy = ">=5.0.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
